@@ -1,4 +1,4 @@
-body .cover {
+ body {
   background: url(./assets/freedom.jpg)no-repeat center;
   background-size: cover;
   width: 100%;
@@ -25,53 +25,149 @@ body .cover {
 }
 
 
-links {
-  position: relative;
-}
-
 .links li {
-  display: inline;
-  padding: 1rem;
-  position: absolute;
-  right: 110rem;
-  top: 50rem;
-  
+  display:inline;
+  padding: 20px;
+  position: relative;
+
   
 }
 
 .ro img {
-  height: 2.3rem;
   position: absolute;
-  left: 4rem;
-  border-radius: 2rem;
-  
-  
+  margin-top: 400px;
+  right:190px;
+  border-radius:50%;
 }
 
 .en img {
-  height: 2rem;
-  margin-top: .2rem;
-  border-radius:1rem;
+  position: absolute;
+  margin-top: 400px;
+  right:90px;
+  border-radius:50%;
 }
-
-
-.ro img:hover {
-  transform: scale(1.3);
   
+.ge img {
+  position: absolute;
+  margin-top: 400px;
+  right:-10px;
+  height:2.7rem;
+  border-radius:50%;
 }
 
-.en img:hover {
-  transform: scale(1.3);
+.ro, .en, .ge, img:hover {
+  transform: scale(1.2);
 }
 
-.ge img{
-  height:2rem;
-  position:absolute;
-  margin-left: 8rem;
-  border-radius:1rem;
+
+@media(max-width: 768px) {
+  body { 
+  background: url(./assets/freedom.jpg)no-repeat 30% center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .text {
+    text-transform: uppercase;
+    text-align: right; 
+    font-size: 30px;
+    word-spacing: .3rem;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    margin:3rem 3rem; 
+    
+  }
   
+  .author {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 23rem;
+    padding-top: 3rem; 
+        
+}
+  
+  .ro img {
+    position: absolute;
+    margin-top: 400px;
+    right:100px;
+    border-radius:50%;
+    
 }
 
-.ge img:hover{
-  transform: scale(1.3);
+  .en img {
+    position: absolute;
+    margin-top: 400px;
+    right:0px;
+    border-radius:50%;
+}
+  
+  .ge img {
+    position: absolute;
+    margin-top: 400px;
+    right:-90px;
+    height:2.7rem;
+    border-radius:50%;    
+}
+
+@media(max-width: 500px){
+  body {
+    background: url(./assets/freedom.jpg)no-repeat 30% center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .text {
+    font-size: 20px;
+    text-transform: none;
+    text-align: center;
+  }
+  
+  .author {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding-left: 17rem;
+    padding-top: 5rem; 
+    margin:0;
+    padding: 2rem
+  }
+  
+  .links li {
+    display: inline;
+    padding: 2rem;
+    
+    
+  }
+  .ro img {
+     position: absolute;
+     margin:0;   
+     height: 2.5rem;
+     margin-top: 33rem;
+     border-radius:50%;
+  }
+
+   .en img {
+      position: absolute;
+      margin:0;
+      right: auto;
+      height: 2.5rem;
+      border-radius:50%;
+      margin-top:33rem;
+      right:3rem;
+  }
+
+   .ge img {
+      position: absolute;
+      margin:0;
+      right: auto;
+      height:2.4rem;
+      border-radius:50%;
+      margin-top: 33rem;
+  }
+ 
+  
 }
