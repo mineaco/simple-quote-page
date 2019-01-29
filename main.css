@@ -23,3 +23,55 @@ body {
   font-style: italic;
   padding-right: 10rem;
 }
+
+
+links {
+  position: relative;
+}
+
+.links li {
+  display: inline;
+  padding: 1rem;
+  position: absolute;
+  right: 110rem;
+  top: 50rem;
+  
+  
+}
+
+.ro img {
+  height: 2.3rem;
+  position: absolute;
+  left: 4rem;
+  border-radius: 2rem;
+  
+  
+}
+
+.en img {
+  height: 2rem;
+  margin-top: .2rem;
+  border-radius:1rem;
+}
+
+
+.ro img:hover {
+  transform: scale(1.3);
+  
+}
+
+.en img:hover {
+  transform: scale(1.3);
+}
+
+.ge img{
+  height:2rem;
+  position:absolute;
+  margin-left: 8rem;
+  border-radius:1rem;
+  
+}
+
+.ge img:hover{
+  transform: scale(1.3);
+}
