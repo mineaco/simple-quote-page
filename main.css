@@ -111,11 +111,11 @@
     border-radius:50%;    
 }
 
-@media(max-width: 500px){
+@media(max-width: 400px){
   body {
-    background: url(./assets/freedom.jpg)no-repeat 30% center;
+    background: url(./assets/freedom.jpg)no-repeat 30% cover;
     background-size: cover;
-    height: 100vh;
+    height: 140vh;
     width: 100%;
     
   }
