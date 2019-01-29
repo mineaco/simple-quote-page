@@ -37,22 +37,22 @@
   position: absolute;
   margin-top: 400px;
   right:190px;
-  border-radius:50%;
+  
 }
 
 .en img {
   position: absolute;
   margin-top: 400px;
   right:90px;
-  border-radius:50%;
+  
 }
   
 .ge img {
   position: absolute;
   margin-top: 400px;
   right:-10px;
-  height:2.7rem;
-  border-radius:50%;
+  
+ 
 }
 
 .ro, .en, .ge, img:hover {
@@ -92,7 +92,7 @@
     position: absolute;
     margin-top: 400px;
     right:100px;
-    border-radius:50%;
+    
     
 }
 
@@ -100,15 +100,14 @@
     position: absolute;
     margin-top: 400px;
     right:0px;
-    border-radius:50%;
+    
 }
   
   .ge img {
     position: absolute;
     margin-top: 400px;
     right:-90px;
-    height:2.7rem;
-    border-radius:50%;    
+     
 }
 
 @media(max-width: 400px){
@@ -147,7 +146,7 @@
      margin:0;   
      height: 2.5rem;
      margin-top: 33rem;
-     border-radius:50%;
+     
   }
 
    .en img {
@@ -155,7 +154,6 @@
       margin:0;
       right: auto;
       height: 2.5rem;
-      border-radius:50%;
       margin-top:33rem;
       right:3rem;
   }
@@ -164,8 +162,7 @@
       position: absolute;
       margin:0;
       right: auto;
-      height:2.4rem;
-      border-radius:50%;
+      height:2.5rem;      
       margin-top: 33rem;
   }
  
